@@ -17,16 +17,8 @@ SELECT
 FROM
     reshare_derived.consortial_view cv
 WHERE
-    cv.cv_date_created >= (
-        SELECT
-            start_date
-        FROM
-            parameters)
-    AND cv.cv_date_created < (
-        SELECT
-            end_date
-        FROM
-            parameters)
+    cv.cv_date_created >= start_date
+    AND cv.cv_date_created < end_date
 GROUP BY
     cv.cv_requester_nice_name,
     cv.cv_supplier_nice_name

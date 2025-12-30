@@ -22,9 +22,7 @@ SELECT
     unfilled,
     filled_locally,
     received,
-    filled_ratio,
-    
-    
+    filled_ratio
     
 FROM (
     SELECT
