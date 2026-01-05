@@ -5,13 +5,13 @@
     "parameters": [
         {
             "name": "start_date",
-            "displayName": "Earliest request date (yyyy-mm-dd)",
+            "displayName": "Earliest request date",
             "type": "date",
             "required": true
         },
         {
             "name": "end_date",
-            "displayName": "End date (yyyy-mm-dd) - for month end, use 1st day of next month",
+            "displayName": "End date - for month end, use 1st day of next month",
             "type": "date",
             "required": true
         }
