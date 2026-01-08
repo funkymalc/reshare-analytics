@@ -1,7 +1,7 @@
 {
     "displayName": "ReShare consortial requesting report",
     "description": "ReShare canned report created in 2021",
-    "instructions": "Choose a start and end date for the reporting period.  Export to Excel for a pivot table to view as crosstabs",
+    "instructions": "Choose a start and end date for the reporting period.  Export to Excel for a pivot table to view as crosstabs.  Map requester > rows, supplier > columns, count_of_requests > values ",
     "parameters": [
         {
             "name": "start_date",
@@ -17,3 +17,4 @@
         }
     ]
 }
+
